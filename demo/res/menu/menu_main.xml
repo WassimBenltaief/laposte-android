@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:icon="@drawable/abs__ic_menu_moreoverflow_holo_light"
+        android:showAsAction="always|withText" 
+        android:enabled="true">
+        <menu>
+            <item
+                android:id="@+id/infos"
+                android:title="A propos"/>
+
+        </menu>
+    </item>
+
+</menu>

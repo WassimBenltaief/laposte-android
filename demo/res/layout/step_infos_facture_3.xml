@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- ///////////////////////////// -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Numéro de la carte"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/facture_numero_carte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="16 chiffres" >
+        </EditText>
+
+        <!-- ///////////////////////////// -->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Gris" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Mot de passe internet"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/facture_password_carte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPassword" >
+        </EditText>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Gris" />
+
+        <!-- ///////////////////////////// -->
+
+        <!-- ///////////////////////////// -->
+    </LinearLayout>
+
+</ScrollView>

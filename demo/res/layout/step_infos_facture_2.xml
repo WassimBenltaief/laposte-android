@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- ///////////////////////////// -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Nom et Prénom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/facture_nom_et_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="....." >
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/radioType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioParticulier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Particulier" />
+
+            <RadioButton
+                android:id="@+id/radioEntreprise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entreprise" />
+        </RadioGroup>
+
+        <!-- ///////////////////////////// -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Téléphone de contact"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/facture_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="....." >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Pays"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/facture_pays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="....." >
+        </EditText>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Gris" />
+
+        <!-- ///////////////////////////// -->
+
+        <CheckBox
+            android:id="@+id/facture_checkbox_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" recevoir par e-mail une copie du reçu de paiement" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:hint="Email"
+            android:inputType="textEmailAddress" 
+			android:id="@+id/facture_email">
+        </EditText>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Gris" />
+
+        <!-- ///////////////////////////// -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Moyen de paiement "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/spinnerMoyenDePaiement"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
