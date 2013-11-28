@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:holo="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:background="@color/White" >
+        
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/White"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Change"
+            android:textSize="30sp" >
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/Gris" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/change_from"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:entries="@array/change_array"
+                android:prompt="@string/de_prompt" />
+
+            <ImageButton
+                android:id="@+id/change_inverser"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_action_inverser" />
+
+            <Spinner
+                android:id="@+id/change_to"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:entries="@array/change_array"
+                android:prompt="@string/a_prompt" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/change_somme"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:hint="@string/hint_change"
+            android:inputType="number"
+            android:textAlignment="center" >
+        </EditText>
+
+        <Button
+            android:id="@+id/change_convertir"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.79"
+            android:text="Convertir" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Gris"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_change_result"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/change_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="120,200 Dinars"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/change_cours"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center|bottom"
+                android:text="[ Cours du jour : 2.20 ]" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+ </ScrollView>
