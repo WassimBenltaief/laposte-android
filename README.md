@@ -26,9 +26,9 @@ Bringing the mail services into mobile.
  * [Khandroid](https://github.com/ogrebgr/khandroid) facilitates communication with server using Apache's HttpClient.
 
 ## Wiki
-### [Android project](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
-### [Server Application RESTful API](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
-### [SSL how to](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
+### [Import android project](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
+### [Import Server Application with the RESTful API](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
+### [SSL how to Volley](https://github.com/Prototik/HoloEverywhere/wiki/Import-in-IDE#eclipse)
 
 
 ## Screenshots :
