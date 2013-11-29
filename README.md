@@ -1,7 +1,6 @@
-
 ---
 title: La Poste Android
-description: An android application for the tunisian mail service
+description: An android application
 author: Wassim Benltaief
 tags: test, testing.
 colors: light yellow
@@ -9,7 +8,6 @@ created:  2011 Mar 15
 modified: 2011 Apr 16
 
 ---
-
 
 La Poste Android
 =========
