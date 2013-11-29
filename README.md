@@ -7,6 +7,7 @@ tags: test, testing.
 colors: light yellow
 created:  2011 Mar 15
 modified: 2011 Apr 16
+
 ---
 
 
@@ -15,7 +16,7 @@ La Poste Android
 
 ## An android application for the Tunisian mail service.
 
-[![Laposte logo](/laposte-android/blob/master/img/laposte_new.png)](#logo)
+[![Laposte logo](https://raw.github.com/WassimBenltaief/laposte-android/master/img/laposte_new.png)](#logo)
 
 
 ### Why in GitHub :
