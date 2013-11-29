@@ -16,6 +16,7 @@ La Poste Android
 
 [![Laposte logo](https://raw.github.com/WassimBenltaief/laposte-android/master/img/laposte_new.png)](#logo)
 
+ <img src="https://raw.github.com/WassimBenltaief/laposte-android/master/img/laposte_new.png" width="200" height="150">
 
 ### Why in GitHub :
 
