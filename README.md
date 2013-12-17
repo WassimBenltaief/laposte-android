@@ -48,12 +48,6 @@ Bringing the mail services into mobile.
 Wassim Benltaief - <beltaief.wassim@gmail.com>
 
 
-## Why in GitHub :
-
-All the work was done in collaboration with the administration of the mail service, but because of the bureaucratic structure that blocked the integration stage of this application !!! I decided to stop with them and share the work to public in order to organize, correct and participate with others the developement stage. Feel free to share, use and participate.
-
-
-
 ##Licence
 
 The MIT License (MIT)
